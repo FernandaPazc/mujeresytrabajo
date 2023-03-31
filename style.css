@@ -28,8 +28,8 @@ h1 {
 
 .seccion-oscura {
   height: 150px;
-  color: rgb(61, 161, 101);
-  background-color: hsl(98, 39%, 76%);
+  color: rgb(170, 221, 174);
+  background-color: hsl(0, 0%, 95%);
   background-image: url('imagenes/flores.png')
 }
 
@@ -179,7 +179,7 @@ color: #656060;
 /*about*/
 .about-me {
 padding: 15px;
-background-color: rgb(167, 206, 151);
+background-color: #a7ce97;
 }
 
 .me{
@@ -194,16 +194,41 @@ background-color: rgb(167, 206, 151);
 }
 
 .container .texto {
-  color:rgb(74, 114, 91);
+  color:rgb(36, 70, 50);
   font-family: 'Playfair Display';
   font-size: 20px;
   text-align: justify;
 }
 
+/*about*/
+.creadora {
+  padding: 15px;
+  background-color: whitesmoke;
+  }
+  
+  .yo{
+    text-align: center;
+  }
+  
+  .creadora .foto-yo {
+    width: 900px;
+    height: 500px;
+    display: block;
+    margin: auto;
+  }
+  
+  .container .texto {
+    color:rgb(74, 114, 91);
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    text-align: justify;
+  }
+
 /*ARCHIVO*/ 
 
 .proyectos-recientes {
   padding: 40px;
+  background-color: #a7ce97;
 }
 
 .proyectos-recientes img {
@@ -353,13 +378,13 @@ footer {
 }
 
 .iconos-redes-sociales i {
-  color: rgb(218, 255, 220);
+  color: rgb(53, 90, 55);
   font-size: 1.5rem;
   transition: all 0.2s ease-in;
 }
 
 .iconos-redes-sociales a:hover {
-  background-color: white;
+  background-color: hsl(152, 89%, 33%);
   border: 2px solid #295028;
 }
 .iconos-redes-sociales a:hover i {
